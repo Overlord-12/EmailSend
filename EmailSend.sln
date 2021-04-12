@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSend", "EmailSend\EmailSend.csproj", "{9D9BB9F7-4F1D-4DDD-B00B-DB910A5AB7A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailControlsLibrary", "MailControlsLibrary\MailControlsLibrary.csproj", "{06062A62-26A3-4F98-BE95-36A2AEA2EECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdressLibrary", "AdressLibrary\AdressLibrary.csproj", "{AC95F7F0-792A-46B5-AD41-A636732FCAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9D9BB9F7-4F1D-4DDD-B00B-DB910A5AB7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9BB9F7-4F1D-4DDD-B00B-DB910A5AB7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9BB9F7-4F1D-4DDD-B00B-DB910A5AB7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06062A62-26A3-4F98-BE95-36A2AEA2EECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06062A62-26A3-4F98-BE95-36A2AEA2EECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06062A62-26A3-4F98-BE95-36A2AEA2EECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06062A62-26A3-4F98-BE95-36A2AEA2EECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC95F7F0-792A-46B5-AD41-A636732FCAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC95F7F0-792A-46B5-AD41-A636732FCAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC95F7F0-792A-46B5-AD41-A636732FCAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC95F7F0-792A-46B5-AD41-A636732FCAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

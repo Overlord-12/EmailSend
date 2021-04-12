@@ -11,13 +11,14 @@ namespace EmailSend
 {
     class SendMail
     {
-        public static void Send(string topic,string body,string toadress)
+        
+        public static void Send(string topic,string body,string toadress,string mainAdress,string server)
         {
-            var fromAddress = new MailAddress($"{MailAdr.Adress}", $"{MailAdr.Name}");
+            var fromAddress = new MailAddress(mainAdress, "Danila");
             var toAddress = new MailAddress( $"{toadress}" , null);
             var smtp = new SmtpClient
             {
-                Host = "smtp.mail.ru",
+                Host = server,
                 Port = 587,
                 EnableSsl = true,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
